@@ -1,11 +1,7 @@
 ## mlflow tracking server with http basic authentication
 
 Run the Dockerfile with the http basic authentication added in mlflow tracking server.
-
-
-``` bash
-docker build -t mlflow-server:2.3.2 .
-```
+Check out how to use it in the blog below.
 
 
 
