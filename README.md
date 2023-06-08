@@ -1,3 +1,17 @@
+## mlflow tracking server with http basic authentication
+
+Run the Dockerfile with the http basic authentication added in mlflow tracking server.
+
+
+``` bash
+docker build -t mlflow-server:2.3.2 .
+```
+
+
+
+
+
+
 ## Stable Diffusion LoRA with MLflow and Ray
 
 ### Hyper-parameter Tuning
