@@ -29,6 +29,7 @@ python train_tune.py \
   --gpus_per_trial=1
   ```
   
+result:
 <img width="700" alt="mlflow-res2" src="https://github.com/visionhong/SD-LoRA-MLflow/assets/53398821/1a1eb055-0f94-49d0-9278-a3dae98d2713">
 
 <img width="700" alt="mlflow-res1" src="https://github.com/visionhong/SD-LoRA-MLflow/assets/53398821/84c38ca5-4768-46c0-96ad-50b531c129bf">
@@ -58,7 +59,7 @@ accelerate launch --mixed_precision="fp16" train_tune.py \
   --enable_xformers_memory_efficient_attention
 ```
 
-
+result:
 <img width="700" alt="mlflow-loss" src="https://github.com/visionhong/SD-LoRA-MLflow/assets/53398821/c105a27c-185d-40c8-89d8-5817e88e48a6">
 
 <img width="700" alt="mlflow-res3" src="https://github.com/visionhong/SD-LoRA-MLflow/assets/53398821/a5298faf-9bbe-4c84-9b2b-b1fe19c84ada">
