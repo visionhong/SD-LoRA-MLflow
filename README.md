@@ -1,6 +1,6 @@
-### Stable Diffusion LoRA with MLflow and Ray
+## Stable Diffusion LoRA with MLflow and Ray
 
-#### Hyper-parameter Tuning
+### Hyper-parameter Tuning
 
 ``` bash
 export MLFLOW_TRACKING_URI="<ECS 태스크 Public IP>"
@@ -38,7 +38,7 @@ result:
 
 <br>
 
-#### Hyper-parameter Tuning
+### Hyper-parameter Tuning
 
 ``` bash
 accelerate launch --mixed_precision="fp16" train_tune.py \
@@ -61,9 +61,11 @@ accelerate launch --mixed_precision="fp16" train_tune.py \
   --enable_xformers_memory_efficient_attention
 ```
 
-result:
-<img width="700" alt="mlflow-loss" src="https://github.com/visionhong/SD-LoRA-MLflow/assets/53398821/c105a27c-185d-40c8-89d8-5817e88e48a6">
+<br>
 
+result:
+
+<img width="700" alt="mlflow-loss" src="https://github.com/visionhong/SD-LoRA-MLflow/assets/53398821/c105a27c-185d-40c8-89d8-5817e88e48a6">
 <img width="700" alt="mlflow-res3" src="https://github.com/visionhong/SD-LoRA-MLflow/assets/53398821/a5298faf-9bbe-4c84-9b2b-b1fe19c84ada">
 
 
