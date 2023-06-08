@@ -29,6 +29,8 @@ python train_tune.py \
   --gpus_per_trial=1
   ```
   
+<br>
+
 result:
 
 <img width="700" alt="mlflow-res2" src="https://github.com/visionhong/SD-LoRA-MLflow/assets/53398821/1a1eb055-0f94-49d0-9278-a3dae98d2713">
