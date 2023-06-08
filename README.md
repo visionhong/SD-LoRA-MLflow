@@ -30,8 +30,8 @@ python train_tune.py \
   ```
   
 result:
-<img width="700" alt="mlflow-res2" src="https://github.com/visionhong/SD-LoRA-MLflow/assets/53398821/1a1eb055-0f94-49d0-9278-a3dae98d2713">
 
+<img width="700" alt="mlflow-res2" src="https://github.com/visionhong/SD-LoRA-MLflow/assets/53398821/1a1eb055-0f94-49d0-9278-a3dae98d2713">
 <img width="700" alt="mlflow-res1" src="https://github.com/visionhong/SD-LoRA-MLflow/assets/53398821/84c38ca5-4768-46c0-96ad-50b531c129bf">
 
 <br>
