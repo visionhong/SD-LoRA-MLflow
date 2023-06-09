@@ -3,6 +3,7 @@
 Run the Dockerfile with the http basic authentication added in mlflow tracking server.
 Check out how to use it in the blog below.
 
+https://visionhong.github.io/aws/AWS-MLflow-SD-LoRA/
 
 <br>
 
